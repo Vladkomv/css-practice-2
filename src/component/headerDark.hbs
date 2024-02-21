@@ -1,0 +1,25 @@
+<div class="header">
+  <div>
+    {{> logo}}
+  </div>
+  <nav class="header_nav">
+    <div class="">
+      {{> nav list=links}}
+    </div>
+  </nav>
+</div>
+<div class="header_ad">
+  <div class="ad">
+    <div class="ad_badge">
+      <span>Ad</span>
+    </div>
+    <div class="ad_text">
+      <span>{{ad.text}}:</span>
+      <a href="{{ad.url}}" class="nav_link ad_link">{{ad.url}} </a>
+    </div>
+  </div>
+  <div class="ad_user">
+    <span>Users online:</span>
+    <span>{{userOnline}}</span>
+  </div>
+</div>
