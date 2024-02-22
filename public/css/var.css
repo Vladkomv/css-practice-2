@@ -7,8 +7,10 @@
   --size-s: 14px;
   --size-d: 16px;
   --size-l: 20px;
+  --size-xl: 24px;
 
-  --color-border: #dee2e6;
+  --color-p: #111827;
+  --color-border: #253041;
   --color-primary: rgb(56, 56, 238);
   --color-white: #fff;
   --color-title: #212529;
